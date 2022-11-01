@@ -8,12 +8,12 @@ public class Customer {
 	String phoneNumber;
 	String emailAddress;
 	
-	public Customer(String firstName, String c, String lastName, String d, 
+	public Customer(String firstName, String middleInitial, String lastName, String gender, 
 												String phoneNumber, String emailAddress) {
 		this.firstName = firstName;
-		this.middleInitial = c;
+		this.middleInitial = middleInitial;
 		this.lastName = lastName;
-		this.gender = d;
+		this.gender = gender;
 		this.phoneNumber = phoneNumber;
 		this.emailAddress = emailAddress;
 		
